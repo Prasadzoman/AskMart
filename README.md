@@ -1,31 +1,31 @@
-# 🛒 AskMart — Full Stack E-commerce Chatbot Platform
+# AskMart — Full Stack E-commerce Chatbot Platform
 
 **AskMart** is a full-stack e-commerce application with an intelligent chatbot that assists users in finding products based on categories and price ranges using natural language queries. It features user authentication, product browsing, a shopping cart, and chat history.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🧠 Chatbot-Powered Search
+### Chatbot-Powered Search
 - Interact with the chatbot using phrases like:
   - _"Show me electronics under ₹5000"_
   - _"Find jackets between ₹1000 and ₹3000"_
 
-### 👤 Authentication
+### Authentication
 - User Sign-up, Login, and Logout with secure password hashing.
 - Session-based authentication using `Flask-Login`.
 
-### 🛍️ Product and Cart Management
+### Product and Cart Management
 - Browse available products.
 - View product details.
 - Add to and view items in your cart.
 
-### 🗣️ Chat History
+### Chat History
 - View and reset your chatbot conversation history.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React.js** with `axios`, `react-router-dom`

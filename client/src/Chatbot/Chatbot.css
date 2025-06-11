@@ -1,0 +1,110 @@
+.chatbot-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.chatbox {
+  width: 100%;
+  max-width: 420px;
+  height: 450px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  resize: both;
+  min-width: 300px;
+  min-height: 400px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  padding: 10px 12px;
+  border-radius: 10px;
+  max-width: 90%;
+  word-wrap: break-word;
+  white-space: pre-line;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.message.bot {
+  background-color: #f0f0f0;
+  align-self: flex-start;
+}
+
+.message.user {
+  background-color: #d0ebff;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.input-area {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f9f9f9;
+  gap: 8px;
+}
+
+.input-area input {
+  flex: 1;
+  min-width: 180px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.input-area button,
+.reset-button {
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-area button {
+  background-color: #007bff;
+  color: white;
+}
+
+.input-area button:hover {
+  background-color: #0056b3;
+}
+
+.reset-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: #d32f2f;
+}
+
+.product-link {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: underline;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.product-link:hover {
+  color: #0056b3;
+}
